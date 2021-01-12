@@ -1,22 +1,22 @@
 <p align="center">
-  <a href="https://github.com/Technoweebs/wmap/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Technoweebs/wmap.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/zebi/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Technoweebs/zebi.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/Technoweebs/wmap/graphs/commit-activity">
-    <img src="https://img.shields.io/github/last-commit/Technoweebs/wmap?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/zebi/graphs/commit-activity">
+    <img src="https://img.shields.io/github/last-commit/Technoweebs/zebi?style=for-the-badge">
   </a>
-  <a href="https://github.com/Technoweebs/wmap/stargazers">
-    <img src="https://img.shields.io/github/stars/Technoweebs/wmap.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/zebi/stargazers">
+    <img src="https://img.shields.io/github/stars/Technoweebs/zebi.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/Technoweebs/wmap/issues">
-    <img src="https://img.shields.io/github/issues/Technoweebs/wmap.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/zebi/issues">
+    <img src="https://img.shields.io/github/issues/Technoweebs/zebi.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/Technoweebs/wmap/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/github/license/Technoweebs/wmap.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/zebi/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/github/license/Technoweebs/zebi.svg?style=for-the-badge">
   </a>
   <br>
-  <a href="https://github.com/Technoweebs/wmap">
-    <img src="assets/wmap.gif" alt="Logo" width="300" height="150">
+  <a href="https://github.com/Technoweebs/zebi">
+    <img src="assets/zebi.gif" alt="Logo" width="300" height="150">
   </a>
 
   <p align="center">
