@@ -1,0 +1,11 @@
+{
+	"token": "XXX",								"_1": "Your token here",
+	"activity": {
+		"type": "PLAYING",						"_3": "NONE, PLAYING, WATCHING or STREAMING (case insensitive)",
+		"content": "BABABOOEY",					"_4": "The activity that will be displayed"
+	}, 											"_5": "Later will come a rotating activity system",
+	"prefix": "%",								"_6": "The prefix of your Bot",
+	"test": {									"_7": "The test model config",
+		"enabled": true
+	}
+}
