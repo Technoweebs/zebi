@@ -1,0 +1,7 @@
+{
+	"token": "XXX",								"_1": "Your token here",
+	"activity": {
+		"type": "PLAYING",						"_3": "NONE, PLAYING, WATCHING or STREAMING (case insensitive)",
+		"content": "Super Mario Odyssey",		"_4": "The activity that will be displayed"
+	}, 											"_5": "Later will come a rotating activity system"
+}
