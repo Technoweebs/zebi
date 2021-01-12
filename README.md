@@ -16,7 +16,7 @@
   </a>
   <br>
   <a href="https://github.com/Technoweebs/zebi">
-    <img src="assets/zebi.gif" alt="Logo" width="300" height="150">
+    <img src=".github/zebi.gif" alt="Logo" width="300" height="150">
   </a>
 
   <p align="center">
