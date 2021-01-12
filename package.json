@@ -1,0 +1,10 @@
+{
+  "name": "zebi",
+  "version": "1.0.0",
+  "description": "Zebi is my personal template for future Discord Bots.",
+  "main": "app.js",
+  "repository": "https://github.com/Technoweebs/zebi",
+  "author": "TomaruDev",
+  "license": "GPL-3.0-or-later",
+  "private": false
+}
