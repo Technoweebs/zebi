@@ -18,4 +18,9 @@ fs.readdirSync(`${__dirname}/commands/`).filter((file) => /\.js$/.test(file)).fo
 	client.commands[command.name] = command;
 });
 
+fs.readdirSync(`${__dirname}/models/`).filter((file) => /\.js$/.test(file)).forEach((file) => {
+	if(!client.config[file.split('.')[0]].enabled) return;
+	client.models[file.split('.')[0]] = new (require(`${__dirname}/models/${file}`))(client, client.config[file.split('.')[0]]);
+});
+
 client.login(client.config.token);
