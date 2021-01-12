@@ -6,5 +6,6 @@ module.exports = {
 	},
 	exec: (message) => {
 		message.reply("PINGASS");
+		this.client.models.test.myCoolFunction("douh");
 	}
 }
