@@ -1,6 +1,6 @@
 {
   "name": "zebi",
-  "version": "1.0.0",
+  "version": "2.2.1",
   "description": "Zebi is my personal template for future Discord Bots.",
   "main": "app.js",
   "repository": "https://github.com/Technoweebs/zebi",
