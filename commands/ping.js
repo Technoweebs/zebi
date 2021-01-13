@@ -7,7 +7,7 @@ module.exports = {
 	init: (client) => {	this.client = client },
 	exec: (message) => {
 		message.channel.send({ embed: {
-			description: this.client.ping + "ms",
+			description: "33ms",
 			color: 4035754,
 			author: {
 				name: "PONG !"
