@@ -1,7 +1,8 @@
 module.exports = {
 	config: {
 		name: "ping",
-		help: "A basic ping command."
+		help: "A basic ping command.",
+		enabled: true
 	},
 	init: (client) => {	this.client = client },
 	exec: (message) => {
