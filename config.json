@@ -1,11 +1,12 @@
 {
-	"token": "XXX",								"_1": "Your token here",
-	"activity": {
-		"type": "PLAYING",						"_3": "NONE, PLAYING, WATCHING or STREAMING (case insensitive)",
-		"content": "BABABOOEY",					"_4": "The activity that will be displayed"
-	}, 											"_5": "Later will come a rotating activity system",
-	"prefix": "%",								"_6": "The prefix of your Bot",
-	"test": {									"_7": "The test model config",
-		"enabled": true
+	"bot": {
+		"token": "XXX",								"_0": "The Discord token for your bot (do not share !)",
+		"activity": {								"_1": "The Discord activity for your bot",
+			"type": "PLAYING",						"_2": "The activity type. PLAYING, WATCHING, LISTENING, STREAMING or NONE. (case insensitive)",
+			"content": "Super Mario Odyssey",		"_3": "The content that will be displayed for your bot."
+		},
+		"prefix": "%",								"_4": "The prefix that will be used for your bot."
+	},
+	"modules": {									"_5": "The configuration of your modules"
 	}
 }
