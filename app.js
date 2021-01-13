@@ -21,7 +21,11 @@ fs.readdirSync(`${__dirname}/commands/`).filter((file) => /\.js$/.test(file))
 // Events
 fs.readdirSync(`${__dirname}/events/`).filter((file) => /\.js$/.test(file))
 .forEach((file) => {
-	// Do some tests and register the event
+	let event = require(`${__dirname}/events/${file}`);
+	if(!event.config.enabled) return;
+
+	client.events[event.config.name] = event;
+	client.on(event.config.name, event.callback);
 });
 
 // Modules
