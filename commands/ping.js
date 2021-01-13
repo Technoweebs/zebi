@@ -1,11 +1,17 @@
 module.exports = {
-	name: "ping",
-	init: (client) => {
-		this.client = client;
-		this.config = this.client.config;
+	config: {
+		name: "ping",
+		help: "A basic ping command.",
+		enabled: true
 	},
+	init: (client) => {	this.client = client },
 	exec: (message) => {
-		message.reply("PINGASS");
-		this.client.models.test.myCoolFunction("douh");
+		message.channel.send({ embed: {
+			description: "33ms",
+			color: 4035754,
+			author: {
+				name: "PONG !"
+			}
+		}});
 	}
 }
