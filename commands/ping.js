@@ -1,11 +1,18 @@
+// Ping Command
 module.exports = {
-	name: "ping",
-	init: (client) => {
-		this.client = client;
-		this.config = this.client.config;
+	config: { // Some config
+		name: "ping",
+		help: "A basic ping command.",
+		enabled: true
 	},
-	exec: (message) => {
-		message.reply("PINGASS");
-		this.client.models.test.myCoolFunction("douh");
+	init: (client) => { this.client = client }, // Variables Initialization
+	exec: (message) => { // Execution
+		message.channel.send({ embed: { // Basic embed
+			description: this.client.modules.ping.exec(message) + "ms", // Ping check
+			color: 4035754,
+			author: {
+				name: "PONG !"
+			}
+		}});
 	}
 }

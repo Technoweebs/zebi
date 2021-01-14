@@ -1,11 +1,11 @@
+// Ready Event
 module.exports = {
-	name: "ready",
-	init: (client) => {
-		this.client = client;
-		this.config = client.config;
+	config: { // Some config
+		name: "ready",
+		enabled: true
 	},
-	callback: () => {
-		console.log("I'M READY FOR UR LITTLE bababooey");
-		if(this.config.activity.type.toUpperCase() != "NONE") this.client.user.setActivity(this.config.activity.content, { type: this.config.activity.type.toUpperCase() });
+	init: (client) => {	this.client = client; this.config = client.config }, // Variables Initialization
+	callback: () => { // Event Callback
+		console.log(`[#] Logged in as ${this.client.user.tag} !`);
 	}
 }
