@@ -5,9 +5,9 @@ const fs      = require("fs");
 
 // Variables
 client.config   = require("./config.json");
-client.modules  = {};
 client.commands = {};
 client.events   = {};
+client.modules  = {};
 
 // Commands
 fs.readdirSync(`${__dirname}/commands/`).filter((file) => /\.js$/.test(file))
@@ -43,4 +43,5 @@ fs.readdirSync(`${__dirname}/modules/`).filter((file) => /\.js$/.test(file))
 	client.modules[_module.config.name] = _module;
 });
 
+// Login
 client.login(client.config.bot.token);
