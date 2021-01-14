@@ -5,9 +5,9 @@ const fs      = require("fs");
 
 // Variables
 client.config   = require("./config.json");
-client.commands =
-client.events   =
 client.modules  = {};
+client.commands = {};
+client.events   = {};
 
 // Commands
 fs.readdirSync(`${__dirname}/commands/`).filter((file) => /\.js$/.test(file))
@@ -35,7 +35,12 @@ fs.readdirSync(`${__dirname}/events/`).filter((file) => /\.js$/.test(file))
 // Modules
 fs.readdirSync(`${__dirname}/modules/`).filter((file) => /\.js$/.test(file))
 .forEach((file) => {
-	// Do some tests and register the module
+	let _module = require(`${__dirname}/modules/${file}`);
+	if(!_module.config.enabled) return;
+
+	_module.init(client.config.modules[_module.config.name] ? client.config.module[_module.config.name] : {});
+
+	client.modules[_module.config.name] = _module;
 });
 
 client.login(client.config.bot.token);
