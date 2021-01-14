@@ -4,10 +4,10 @@ module.exports = {
 		help: "A basic ping command.",
 		enabled: true
 	},
-	init: (client) => {	this.client = client },
+	init: (client) => { this.client = client; },
 	exec: (message) => {
 		message.channel.send({ embed: {
-			description: "33ms",
+			description: this.client.modules.ping.exec(message) + "ms",
 			color: 4035754,
 			author: {
 				name: "PONG !"
