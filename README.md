@@ -142,6 +142,6 @@ Project Link: [https://github.com/Technoweebs/zebi](https://github.com/Technowee
 ## Acknowledgements
 Thanks to the Discord team for creating it and allowing people to re-create social bonds with their loved ones,  
 to the DiscordJS team for creating a more than complete framework,  
-to @iLigueYT for the name of the project,  
+to [@iLigueTv](https://twitter.com/iliguetv) for the name of the project,  
 and thanks to my friends for the moral support.  
 Finally, thanks to you, who support and encourage me in these small projects.  
