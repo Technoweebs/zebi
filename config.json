@@ -1,12 +1,12 @@
 {
 	"bot": {
-		"token": "XXX",								"_0": "The Discord token for your bot (do not share !)",
-		"activity": {								"_1": "The Discord activity for your bot",
-			"type": "PLAYING",						"_2": "The activity type. PLAYING, WATCHING, LISTENING, STREAMING or NONE. (case insensitive)",
-			"content": "Super Mario Odyssey",		"_3": "The content that will be displayed for your bot."
+		"token": "XXX",
+		"activity": {
+			"type": "PLAYING",
+			"content": "Super Mario Odyssey"
 		},
-		"prefix": "%",								"_4": "The prefix that will be used for your bot."
+		"prefix": "%"
 	},
-	"modules": {									"_5": "The configuration of your modules"
+	"modules": {
 	}
 }
