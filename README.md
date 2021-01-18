@@ -113,6 +113,10 @@ Here's the documentation of the config :
 | `content:`   | The text that will be displayed as activity.                                                                            |
 | `prefix:`    | The prefix of the bot.                                                                                                  |
 | `modules{}`  | All the configuration related to the modules of the bot. See the required configuration of the installed modules.       |
+When you have set everything up, you can run it once to see if everything works, and you can test the %ping command (the prefix may vary).  
+If everything works, you can start coding !  
+You have all the examples you need to use the template.  
+Good Luck & Have Fun :)
 
 ## ToDo List
   * Create more example commands 💻
