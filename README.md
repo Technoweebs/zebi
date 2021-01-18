@@ -54,6 +54,8 @@
 
 ## About The Project
 ### What's that ?
+Zebi is a Discord bot template designed to create a simple but effective architecture for your bot.  
+It is available to everyone and was designed basically so that I can create Discord bots by reusing a clean, solid base so that I can focus on the essential part of the bot.
 
 ### Why ?
 
@@ -86,17 +88,12 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the GPL-3.0 License. See `LICENSE.md` for more information.
 
 ## Contact
-TomaruDev - [@MrTomaru](https://twitter.com/MrTomaru) - contact@tomaru.dev
-
+TomaruDev - [@MrTomaru](https://twitter.com/MrTomaru) - contact@tomaru.dev  
 Project Link: [https://github.com/Technoweebs/zebi](https://github.com/Technoweebs/zebi)
 
 ## Acknowledgements
-Thanks to the Discord team for creating it and allowing people to re-create social bonds with their loved ones,
-
-to the DiscordJS team for creating a more than complete framework,
-
-to @iLigueYT for the name of the project,
-
-and thanks to my friends for the moral support.
-
-Finally, thanks to you, who support and encourage me in these small projects.
+Thanks to the Discord team for creating it and allowing people to re-create social bonds with their loved ones,  
+to the DiscordJS team for creating a more than complete framework,  
+to @iLigueYT for the name of the project,  
+and thanks to my friends for the moral support.  
+Finally, thanks to you, who support and encourage me in these small projects.  
