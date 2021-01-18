@@ -122,7 +122,6 @@ Good Luck & Have Fun :)
 ## ToDo List
   * Create more example commands 💻
   * Add activity manager 🐟
-  * Finish the README 📄
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
