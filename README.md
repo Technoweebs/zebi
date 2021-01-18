@@ -84,12 +84,39 @@ I coded this template with NodeJS v14, so I don't know if it works with older ve
      ```bash
 	 yarn install
      ```
-3. All done ! Go to the [#Usage](#usage) section to be able to launch the bot.
+3. All done ! Go to the ["Usage"](#usage) section to be able to launch the bot.
 
 ### Usage
+When you have finished installing the bot, you must now configure it for the first launch.  
+The configuration file looks like this :
+```json
+{
+	"bot": {
+		"token": "XXX",
+		"activity": {
+			"type": "PLAYING",
+			"content": "Super Mario Odyssey"
+		},
+		"prefix": "%"
+	},
+	"modules": {
+	}
+}
+```
+Here's the documentation of the config :
+| Name         | Function                                                                                                                |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|
+| `bot{}`      | All the configuration related to the bot itself.                                                                        |
+| `token:`     | The token of your bot. Not to be shared !                                                                               |
+| `activity{}` | All the configuration related to the activity of the bot.                                                               |
+| `type:`      | The type of activity of the bot. Can be `PLAYING`, `WATCHING`, `LISTENING`, `STREAMING` or `NONE` (not case sensitive). |
+| `content:`   | The text that will be displayed as activity.                                                                            |
+| `prefix:`    | The prefix of the bot.                                                                                                  |
+| `modules{}`  | All the configuration related to the modules of the bot. See the required configuration of the installed modules.       |
 
 ## ToDo List
   * Create more example commands 💻
+  * Add activity manager 🐟
   * Finish the README 📄
 
 ## Contributing
