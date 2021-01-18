@@ -55,9 +55,10 @@
 ## About The Project
 ### What's that ?
 Zebi is a Discord bot template designed to create a simple but effective architecture for your bot.  
-It is available to everyone and was designed basically so that I can create Discord bots by reusing a clean, solid base so that I can focus on the essential part of the bot.
+It's available to everyone and was designed basically so that I can create Discord bots by reusing a clean, solid base so that I can focus on the essential part of the bot.
 
 ### Why ?
+Because I needed to take my mind off things and also because I needed it for my team of developers (the [@Oyle](https://twitter.com/_OyleM) team), so that they too could use it.
 
 ### Built With
 * [NodeJS](https://nodejs.org/)
@@ -66,8 +67,24 @@ It is available to everyone and was designed basically so that I can create Disc
 
 ## Getting Started
 ### Prerequisites
+Have NodeJS and Yarn (or NPM) installed.  
+I coded this template with NodeJS v14, so I don't know if it works with older versions (normally it shouldn't be a problem).
 
 ### Installation
+1. Download the project with [Git](https://git-scm.com/)
+   ```bash
+   git clone https://github.com/Technoweebs/zebi.git
+   ```
+2. Then, install the packages with...
+   * ... NPM:
+     ```bash
+	 npm i
+     ```
+   * ... Yarn:
+     ```bash
+	 yarn install
+     ```
+3. All done ! Go to the [#Usage](#usage) section to be able to launch the bot.
 
 ### Usage
 
