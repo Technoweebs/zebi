@@ -93,26 +93,41 @@ The configuration file looks like this :
 {
 	"bot": {
 		"token": "XXX",
-		"activity": {
-			"type": "PLAYING",
-			"content": "Super Mario Odyssey"
+		"presence": {
+			"status": "online",
+			"games": {
+				"interval": 15000,
+				"activities": [{
+					"content": "Super Mario Odyssey",
+					"type": "PLAYING"
+				}, {
+					"content": "Spotify",
+					"type": "LISTENING"
+				}, {
+					"content": "Netflix",
+					"type": "WATCHING"
+				}]
+			}
 		},
 		"prefix": "%"
 	},
-	"modules": {
-	}
+	"modules": {}
 }
 ```
 Here's the documentation of the config :
-| Name         | Function                                                                                                                |
-|--------------|-------------------------------------------------------------------------------------------------------------------------|
-| `bot{}`      | All the configuration related to the bot itself.                                                                        |
-| `token:`     | The token of your bot. Not to be shared !                                                                               |
-| `activity{}` | All the configuration related to the activity of the bot.                                                               |
-| `type:`      | The type of activity of the bot. Can be `PLAYING`, `WATCHING`, `LISTENING`, `STREAMING` or `NONE` (not case sensitive). |
-| `content:`   | The text that will be displayed as activity.                                                                            |
-| `prefix:`    | The prefix of the bot.                                                                                                  |
-| `modules{}`  | All the configuration related to the modules of the bot. See the required configuration of the installed modules.       |
+| Name             | Function                                                                                                                |
+|------------------|-------------------------------------------------------------------------------------------------------------------------|
+| `bot{}`          | All the configuration related to the bot itself.                                                                        |
+| `token:`         | The token of your bot. Not to be shared !                                                                               |
+| `presence{}`     | All the configuration related to the presence of the bot.                                                               |
+| `status:`        | The status of your bot. Can be "online", `idle`, `invisible` and `dnd` (do not disturb). (case insensitive)             |
+| `games{}`        | All the configuration related to the games (= activities) of the bot.                                                   |
+| `interval:`      | The interval used between each activity (in ms)                                                                         |
+| `activities[{}]` | The list of all the activities of the bot. A brace is equivalent to an activity that will be used.                      |
+| `type:`          | The type of activity of the bot. Can be `PLAYING`, `WATCHING`, `LISTENING`, `STREAMING` or `NONE` (case insensitive).   |
+| `content:`       | The text that will be displayed as activity.                                                                            |
+| `prefix:`        | The prefix of the bot.                                                                                                  |
+| `modules{}`      | All the configuration related to the modules of the bot. See the required configuration of the installed modules.       |
 
 When you have set everything up, you can run it once to see if everything works, and you can test the %ping command (the prefix may vary).  
 If everything works, you can start coding !  
