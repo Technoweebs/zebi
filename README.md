@@ -120,7 +120,7 @@ Here's the documentation of the config :
 | `bot{}`          | All the configuration related to the bot itself.                                                                        |
 | `token:`         | The token of your bot. Not to be shared !                                                                               |
 | `presence{}`     | All the configuration related to the presence of the bot.                                                               |
-| `status:`        | The status of your bot. Can be "online", `idle`, `invisible` and `dnd` (do not disturb). (case insensitive)             |
+| `status:`        | The status of your bot. Can be `online`, `idle`, `invisible` and `dnd` (do not disturb). (case insensitive)             |
 | `games{}`        | All the configuration related to the games (= activities) of the bot.                                                   |
 | `interval:`      | The interval used between each activity (in ms)                                                                         |
 | `activities[{}]` | The list of all the activities of the bot. A brace is equivalent to an activity that will be used.                      |
