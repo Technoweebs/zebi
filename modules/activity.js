@@ -8,6 +8,7 @@ module.exports = {
 	exec: (activities, interval) => { // Execution
 		return new Promise(() => {
 			this.client.user.setActivity(activities[0].content, { type: activities[0].type.toUpperCase() });
+			if(activities.length == 1) return;
 			
 			let i = 1;
 			let max = activities.length - 1;
