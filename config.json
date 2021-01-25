@@ -1,12 +1,23 @@
 {
 	"bot": {
 		"token": "XXX",
-		"activity": {
-			"type": "PLAYING",
-			"content": "Super Mario Odyssey"
+		"presence": {
+			"status": "online",
+			"games": {
+				"interval": 15000,
+				"activities": [{
+					"content": "Super Mario Odyssey",
+					"type": "PLAYING"
+				}, {
+					"content": "Spotify",
+					"type": "LISTENING"
+				}, {
+					"content": "Netflix",
+					"type": "WATCHING"
+				}]
+			}
 		},
 		"prefix": "%"
 	},
-	"modules": {
-	}
+	"modules": {}
 }

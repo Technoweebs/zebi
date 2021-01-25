@@ -38,7 +38,7 @@ fs.readdirSync(`${__dirname}/modules/`).filter((file) => /\.js$/.test(file))
 	let _module = require(`${__dirname}/modules/${file}`);
 	if(!_module.config.enabled) return;
 
-	_module.init(client.config.modules[_module.config.name] ? client.config.module[_module.config.name] : {});
+	_module.init(client, client.config.modules[_module.config.name] ? client.config.module[_module.config.name] : {});
 
 	client.modules[_module.config.name] = _module;
 });
